@@ -1,0 +1,6 @@
+# Files are text and have native line endings unless specified otherwise.
+* text
+*.png binary
+
+# Use a custom hunk header when available.
+*.html diff=html
