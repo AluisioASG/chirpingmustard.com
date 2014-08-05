@@ -2,6 +2,11 @@
   font-family: 'xkcd';
   src: url('../fonts/xkcd-Regular.otf') format('opentype');
 }
+@font-face {
+  font-family: 'xkcd-beanish';
+  src: url('../fonts/xkcd_beanish-Regular.woff') format('woff'), url('../fonts/xkcd_beanish-Regular.otf') format('opentype');
+}
+
 html {
 	overflow-y: auto;
 }
@@ -10,7 +15,7 @@ body {
 	background: #ffffff url('../images/bg_tiled_light.png') repeat fixed center; 
 	font-size: 15px; 
 	color: #000000;
-	font-family: 'xkcd', cursive;
+	font-family: 'xkcd-beanish', cursive;
 }
 
 ul {
