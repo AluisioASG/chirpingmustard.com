@@ -1,6 +1,7 @@
 # Files are text and have native line endings unless specified otherwise.
 * text
 *.png binary
+*.ico binary
 /fonts/* binary
 
 # Use a custom hunk header when available.
