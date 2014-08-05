@@ -1,3 +1,7 @@
+@font-face {
+  font-family: 'xkcd';
+  src: url('../fonts/xkcd-Regular.otf') format('opentype');
+}
 html {
 	overflow-y: auto;
 }
