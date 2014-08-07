@@ -1,8 +1,4 @@
 @font-face {
-  font-family: 'xkcd';
-  src: url('../fonts/xkcd-Regular.otf') format('opentype');
-}
-@font-face {
   font-family: 'xkcd-beanish';
   src: url('../fonts/xkcd_beanish-Regular.woff') format('woff'), url('../fonts/xkcd_beanish-Regular.otf') format('opentype');
 }
