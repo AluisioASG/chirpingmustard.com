@@ -9,9 +9,8 @@ html {
 
 body {
 	background: #ffffff url('../images/bg_tiled_light.png') repeat fixed center; 
-	font-size: 15px; 
-	color: #000000;
-	font-family: 'xkcd-beanish', cursive;
+	color: #000;
+	font: 15px 'xkcd-beanish', cursive;
 }
 
 ul {
