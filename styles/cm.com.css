@@ -103,6 +103,13 @@ p {
 .related {
 	font-variant: small-caps;
 }
+
+.mirrored {
+  display: inline-block;
+  -webkit-transform: scale(-1, 1);
+  -ms-transform: scale(-1, 1);
+  transform: scale(-1, 1);
+}
 	
 @media all and (max-width: 720px) {
 	body {
