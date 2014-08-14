@@ -22,7 +22,6 @@ a {
 }
 
 #navbar {
-	background: rgba(0,0,0,.8);
 	color: #fff;
 }
 
@@ -70,26 +69,59 @@ a {
 		background: none;
 	}
 	
+	.thumb {
+		display: none;
+	}
+	
 	#navbar {
+		background: #000;
+		cursor: default;
 		width: 100%;
-		text-align: center;
+		text-align: justify;
 	}
 
 	#navbar .linkgroup {
-		background: #000;
+		display: inline-block;
+		margin: 0 10px 0 10px;
+		position: relative;
+		line-height: 200%;
+	}
+	
+	#navbar .linkgroup:hover {
+		background: rgba(255,255,255,.3);
 	}
 	
 	#navbar .linkgroup ul {
+		background: #000;
 		text-align: left;
+		display: none;
+		position: absolute;
+		left: -15px;
+		z-index: 1;
+		line-height: normal;
+	}
+	
+	#navbar .linkgroup:hover ul {
+		display: block;
 	}
 
-	#navbar .linkgroup:last-child ul {
-		margin-bottom: 0;
+	.justifier {
+		display: inline-block;
+		width: 100%;
+		margin: 0;
+		padding: 0;
+		height: 0px;
 	}
+
 }
 
 @media screen and (min-width: 720px) {
+	.thumb {
+		display: inline;
+	}
+	
 	#navbar {
+		background: rgba(0,0,0,.8);
 		position: fixed;
 		top: 0;
 		left: 0;
