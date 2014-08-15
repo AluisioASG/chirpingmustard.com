@@ -1,0 +1,16 @@
+{
+  "source": "pages",
+  "destination": "_out",
+
+  "plugins": {
+    "metalsmith-static": {
+      "src": "static",
+      "dest": "."
+    },
+    "metalsmith-templates": {
+      "engine": "templayed",
+      "directory": "templates",
+      "default": "default.html"
+    }
+  }
+}

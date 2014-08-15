@@ -1,10 +1,11 @@
 @font-face {
-  font-family: 'xkcd-beanish';
-  src: url('../fonts/xkcd_beanish-Regular.woff') format('woff'), url('../fonts/xkcd_beanish-Regular.otf') format('opentype');
+	font-family: 'xkcd-beanish';
+	src: url('../fonts/xkcd_beanish-Regular.woff') format('woff'), url('../fonts/xkcd_beanish-Regular.otf') format('opentype');
 }
 
+
 body {
-	background: url('../images/bg_light.png') repeat fixed center; 
+	background: url('../images/bg_light.png') repeat fixed center;
 	color: #000;
 	font: 15px 'xkcd-beanish', cursive;
 }
@@ -58,21 +59,21 @@ a {
 }
 
 .mirrored {
-  display: inline-block;
-  -webkit-transform: scale(-1, 1);
-  -ms-transform: scale(-1, 1);
-  transform: scale(-1, 1);
+	display: inline-block;
+	-webkit-transform: scale(-1, 1);
+	-ms-transform: scale(-1, 1);
+	transform: scale(-1, 1);
 }
-	
+
 @media screen and (max-width: 719px) {
 	body {
 		background: none;
 	}
-	
+
 	.thumb {
 		display: none;
 	}
-	
+
 	#navbar {
 		background: #000;
 		cursor: default;
@@ -86,11 +87,11 @@ a {
 		position: relative;
 		line-height: 200%;
 	}
-	
+
 	#navbar .linkgroup:hover {
 		background: rgba(255,255,255,.3);
 	}
-	
+
 	#navbar .linkgroup ul {
 		background: #000;
 		text-align: left;
@@ -100,7 +101,7 @@ a {
 		z-index: 1;
 		line-height: normal;
 	}
-	
+
 	#navbar .linkgroup:hover ul {
 		display: block;
 	}
@@ -119,7 +120,7 @@ a {
 	.thumb {
 		display: inline;
 	}
-	
+
 	#navbar {
 		background: rgba(0,0,0,.8);
 		position: fixed;
