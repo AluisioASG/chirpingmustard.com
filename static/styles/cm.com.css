@@ -47,7 +47,7 @@ a {
 	background: rgba(255,255,255,.3);
 }
 
-.thumb {
+#navbar img {
 	width: 42px;
 	height: 30px;
 	margin: 0 5px 0 0;
@@ -68,10 +68,6 @@ a {
 @media screen and (max-width: 719px) {
 	body {
 		background: none;
-	}
-
-	.thumb {
-		display: none;
 	}
 
 	#navbar {
@@ -106,6 +102,10 @@ a {
 		display: block;
 	}
 
+	#navbar img {
+		display: none;
+	}
+
 	.justifier {
 		display: inline-block;
 		width: 100%;
@@ -117,10 +117,6 @@ a {
 }
 
 @media screen and (min-width: 720px) {
-	.thumb {
-		display: inline;
-	}
-
 	#navbar {
 		background: rgba(0,0,0,.8);
 		position: fixed;
@@ -133,6 +129,10 @@ a {
 
 	#navbar ul {
 		margin: 10px;
+	}
+
+	#navbar img {
+		display: inline;
 	}
 
 	#title, #content {
