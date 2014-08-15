@@ -10,10 +10,6 @@ body {
 	font: 15px 'xkcd-beanish', cursive;
 }
 
-p {
-	padding: 10px;
-}
-
 a {
 	color: #000;
 }
@@ -109,9 +105,6 @@ a {
 	.justifier {
 		display: inline-block;
 		width: 100%;
-		margin: 0;
-		padding: 0;
-		height: 0px;
 	}
 
 }
