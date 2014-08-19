@@ -34,7 +34,6 @@ a {
 #navbar a {
 	display: block;
 	color: #fff;
-	padding: 5px;
 	text-decoration: none;
 	text-transform: uppercase;
 }
@@ -100,6 +99,10 @@ a {
 		display: block;
 	}
 
+	#navbar a {
+		padding: 5px 0 5px 0;
+	}
+
 	#navbar img {
 		display: none;
 	}
@@ -126,6 +129,9 @@ a {
 		margin: 10px;
 	}
 
+	#navbar a {
+		padding: 5px;
+	}
 	#navbar img {
 		display: inline;
 	}
