@@ -71,6 +71,7 @@ a {
 		cursor: default;
 		width: 100%;
 		text-align: justify;
+		font-size: 0px;
 	}
 
 	#navbar .linkgroup {
@@ -78,6 +79,7 @@ a {
 		margin: 0 10px 0 10px;
 		position: relative;
 		line-height: 200%;
+		font-size: initial;
 	}
 
 	#navbar .linkgroup:hover {
