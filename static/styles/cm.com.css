@@ -3,7 +3,6 @@
 	src: url('../fonts/xkcd_beanish-Regular.woff') format('woff'), url('../fonts/xkcd_beanish-Regular.otf') format('opentype');
 }
 
-
 body {
 	background: url('../images/bg_lighter.png') repeat fixed center;
 	color: #000;
@@ -90,13 +89,22 @@ a {
 		text-align: left;
 		display: none;
 		position: absolute;
-		left: -15px;
+		left: -10px;
 		z-index: 1;
 		line-height: normal;
+		min-width: 100%;
+		width: auto;
+		margin: 0;
+		padding: 10px;
 	}
 
 	#navbar .linkgroup:hover ul {
 		display: block;
+	}
+
+	#navbar .linkgroup li {
+		margin: 0;
+		padding: 0;
 	}
 
 	#navbar a {
