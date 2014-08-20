@@ -11,6 +11,13 @@
       "engine": "templayed",
       "directory": "templates",
       "default": "default.html"
+    },
+    "metalsmith-clean-css": {
+      "files": "styles/cm.com.css",
+      "cleanCSS": {
+        "processImport": true,
+        "relativeTo": "content/styles/"
+      }
     }
   }
 }
