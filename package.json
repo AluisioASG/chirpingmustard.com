@@ -1,12 +1,11 @@
 {
   "name": "chirpingmustard.com",
-  "version": "0.7.0",
+  "version": "0.8.0",
   "description": "A portal to all things RELATED to the OTC and the OTT",
   "contributors": [
     "Mike Crawford <m@chirpingmustard.com>",
     "Aluísio Augusto Silva Gonçalves <aasg@chirpingmustard.com>"
   ],
-  "license": "MPL-2.0",
   "scripts": {
     "build": "metalsmith"
   },
