@@ -1,13 +1,13 @@
 {
-  "source": "pages",
+  "source": "content",
   "destination": "_out",
 
   "plugins": {
-    "metalsmith-static": {
-      "src": "static",
-      "dest": "."
+    "metalsmith-assets": {
+      "source": "static"
     },
     "metalsmith-templates": {
+      "pattern": "*.html",
       "engine": "templayed",
       "directory": "templates",
       "default": "default.html"
