@@ -18,6 +18,9 @@
       "engine": "templayed",
       "directory": "templates",
       "default": "default.html"
+    },
+    "metalsmith-html-minifier": {
+      "conservativeCollapse": true
     }
   }
 }

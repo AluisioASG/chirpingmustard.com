@@ -12,6 +12,7 @@
   "dependencies": {
     "metalsmith": "~0.10.0",
     "metalsmith-clean-css": "~0.0.3",
+    "metalsmith-html-minifier": "^1.0.0",
     "metalsmith-ignore": "~0.1.2",
     "metalsmith-templates": "~0.5.2",
     "templayed": "~0.2.3"
