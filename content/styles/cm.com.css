@@ -48,6 +48,22 @@ body { color: #000; font: 15px 'xkcd-beanish', cursive; }
 	transform: scale(-1, 1);
 }
 
+#clock {
+	position: fixed;
+	bottom: 0px;
+	width: 100%;
+	text-align: center;
+}
+
+#clock img {
+	max-width: 100%;
+}
+
+.clock_offset {
+	width: 100%;
+	height: 125px;
+}
+
 
 @media screen and (max-width: 719px) {
 	/* Display the navigator bar collapsed into the categories and centered below the title. */
@@ -93,6 +109,10 @@ body { color: #000; font: 15px 'xkcd-beanish', cursive; }
 		display: inline-block;
 		width: 100%;
 	}
+	
+	#navbar .clock_offset {
+		display: none;
+	}
 }
 
 
@@ -119,4 +139,8 @@ body { color: #000; font: 15px 'xkcd-beanish', cursive; }
 
 	/* Display the link thumbnails next to the items themselves. */
 	#navbar img { display: inline; }
+	
+	#navbar .clock_offset {
+		display: block;
+	}
 }
