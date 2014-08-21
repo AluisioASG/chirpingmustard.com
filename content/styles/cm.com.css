@@ -65,7 +65,6 @@ body { color: #000; font: 15px 'xkcd-beanish', cursive; }
 		background: #000;
 		position: absolute;
 		left: -10px;
-		width: 100%;
 		z-index: 1;
 	}
 
