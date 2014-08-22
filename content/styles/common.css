@@ -49,6 +49,21 @@ body { color: #000; font: 15px 'xkcd-beanish', cursive; }
 }
 
 /* Of all variability, this we know: the clock is always at the bottom. */
+/* It's possible that we also know it's centered with the right edge plus some floating value, and that it's fixed on the screen so it shows at all times. */
 #clock {
 	bottom: 0;
+	position: fixed;
+	right: 0;
+	text-align: center;
+}
+
+/* The clock should not be clipped by the page. */
+#clock img {
+	max-width: 100%;
+	display: inline;
+}
+
+/* The bottom of the content block should not be covered by the clock when scrolling to the bottom of the page. */
+#content {
+	padding-bottom: 125px;
 }
