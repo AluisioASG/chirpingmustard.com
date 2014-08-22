@@ -7,9 +7,6 @@
 	<link rel="stylesheet" media="screen and (max-width: 719px)" href="styles/mobile.css">
 	<link rel="stylesheet" media="screen and (min-width: 720px)" href="styles/desktop.css">
 
-	<header id="title">
-		<h1>{{{ heading }}}</h1>
-	</header>
 	<nav id="navbar">
 		<ul>
 			<li class="linkgroup">This site
@@ -58,11 +55,10 @@
 			</li>
 			<li class="justifier"></li>
 		</ul>
-		<div class="clock_offset"></div>
 	</nav>
 	<main id="content">
+		<h1>{{{ heading }}}</h1>
 		{{{ contents }}}
-		<div class="clock_offset"></div>
+		<div id="clock"><img src="http://clock.chronoscreations.net/v5"></div>
 	</main>
-	<div id="clock"><img src="http://clock.chronoscreations.net/v5"></div>
 </html>
