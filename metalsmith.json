@@ -7,7 +7,6 @@
       "styles/normalize.css"
     ],
     "metalsmith-clean-css": {
-      "files": "styles/cm.com.css",
       "cleanCSS": {
         "processImport": true,
         "relativeTo": "content/styles/"

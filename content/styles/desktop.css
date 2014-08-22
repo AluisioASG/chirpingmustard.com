@@ -1,0 +1,38 @@
+/* Have a nice background. */
+body {
+	background: url('../images/background.png') repeat fixed center;
+}
+	
+/* Display the navigation bar on the left with partial translucency. */
+#navbar {
+	background: rgba(0, 0, 0, 0.8);
+	position: fixed;
+	width: 360px;
+	height: 100%;
+	overflow-y: auto;
+}
+/* Shove the content pane to the right. */
+#content {
+	position: absolute;
+	left: 365px;
+}
+
+/* Adjust whitepace between items. */
+#navbar ul { margin: 10px; }
+#navbar a { padding: 5px; }
+
+/* Display the link thumbnails next to the items themselves. */
+#navbar img {
+	display: inline;
+}
+
+/* Center the newpixometer in the content pane. */
+#clock {
+	position: absolute; left: calc((100% - 457px) / 2);
+}
+
+/* Leave space for the newpixometer in the content pane. */
+#content {
+	padding-bottom: 125px;
+	min-height: calc(100% - 125px);
+}

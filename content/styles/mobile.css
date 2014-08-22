@@ -1,0 +1,55 @@
+/* Display the navigator bar collapsed into the categories and centered below the title. */
+#navbar {
+	background: #000;
+	cursor: default;
+	width: 100%;
+}
+.linkgroup {
+	display: inline-block;
+	margin: 0 10px 0 10px;
+	position: relative;
+}
+.linkgroup ul {
+	background: #000;
+	position: absolute;
+	left: -10px;
+	z-index: 1;
+}
+
+/* Adjust text and line sizes across the navigation bar. */
+#navbar { font-size: 0; text-align: justify; }
+.linkgroup { font-size: initial; line-height: 200%; }
+.linkgroup ul { line-height: normal; text-align: left; }
+
+/* Highlight the active link group and display its contents. */
+.linkgroup:hover { background: rgba(255, 255, 255, 0.3); }
+.linkgroup:hover ul { display: block; }
+.linkgroup ul { display: none; }
+
+/* Adjust whitespace. */
+.linkgroup ul { margin: 0; padding: 10px; }
+.linkgroup li { margin: 0; padding: 0; }
+#navbar a { padding: 5px 0;	}
+
+/* Hide link thumbnails. */
+#navbar img {
+	display: none;
+}
+
+/* Make sure the link groups are justified across the navigation bar. */
+#navbar .justifier {
+	display: inline-block;
+	width: 100%;
+}
+
+/* The clock is always positioned relative to the content pane. */
+#clock { position: relative; }
+/* Downscale the newpixometer on smaller screens. */
+@media (max-width: 457px) {
+	#clock { max-width: 100%; }
+	#clock img { max-width: 100%; }
+}
+/* Center the newpixometer in the content pane when the latter is wide enough. */
+@media (min-width: 458px) {
+	#clock { left: calc((100% - 457px) / 2); }
+}

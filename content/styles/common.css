@@ -1,0 +1,54 @@
+@import 'normalize.css';
+
+@font-face {
+	font-family: 'xkcd-beanish';
+	src: url('../fonts/xkcd_beanish-Regular.woff') format('woff'), url('../fonts/xkcd_beanish-Regular.otf') format('opentype');
+}
+
+
+/* Style the page's text. */
+body { color: #000; font: 15px 'xkcd-beanish', cursive; }
+#navbar { color: #fff; }
+#navbar ul { list-style-type: none; }
+
+/* Adjust whitespace in the navigation bar. */
+#navbar ul { padding: 10px; }
+.linkgroup ul { margin: 0 0 10px 0; }
+
+/* Style navigation bar links. */
+#navbar a {
+	display: block;
+	color: inherit;
+	text-decoration: none;
+	text-transform: uppercase;
+}
+#navbar a:hover, #navbar a:active {
+	background: rgba(255, 255, 255, 0.3);
+}
+
+/* Style link thumbnails. */
+#navbar img {
+	width: 42px;
+	height: 30px;
+	margin: 0 5px 0 0;
+	vertical-align: -60%;
+}
+
+/* Specialty settings for specific items. */
+#title {
+	font-family: 'Trebuchet MS', 'Arial', 'Helvetica', sans-serif;
+}
+.related {
+	font-variant: small-caps;
+}
+.mirrored {
+	display: inline-block;
+	-webkit-transform: scale(-1, 1);
+	-ms-transform: scale(-1, 1);
+	transform: scale(-1, 1);
+}
+
+/* Of all variability, this we know: the clock is always at the bottom. */
+#clock {
+	bottom: 0;
+}
