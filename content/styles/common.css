@@ -11,10 +11,6 @@ body { color: #000; font: 15px 'xkcd-beanish', cursive; }
 #navbar { color: #fff; }
 #navbar ul { list-style-type: none; }
 
-/* Adjust whitespace in the navigation bar. */
-#navbar ul { padding: 10px; }
-.linkgroup ul { margin: 0 0 10px 0; }
-
 /* Style navigation bar links. */
 #navbar a {
 	display: block;
@@ -34,8 +30,12 @@ body { color: #000; font: 15px 'xkcd-beanish', cursive; }
 	vertical-align: -60%;
 }
 
+/* Adjust whitespace in the navigation bar. */
+#navbar ul { padding: 10px; }
+#navbar .linkgroup ul { margin: 0 0 10px 0; }
+
 /* Specialty settings for specific items. */
-#content h1 {
+#title {
 	font-family: 'Trebuchet MS', 'Arial', 'Helvetica', sans-serif;
 }
 .related {
@@ -48,19 +48,20 @@ body { color: #000; font: 15px 'xkcd-beanish', cursive; }
 	transform: scale(-1, 1);
 }
 
-/* Of all variability, this we know: the clock is always at the bottom. */
-/* It's possible that we also know it's centered with the right edge plus some floating value, and that it's fixed on the screen so it shows at all times. */
+/* Fix the clock at the bottom center of the screen. */
 #clock {
-	bottom: 0;
 	position: fixed;
+	bottom: 0;
 	right: 0;
 	text-align: center;
 }
+#clock img {
+	display: inline;
+}
 
-/* The clock should not be clipped by the page. */
+/* Adjust the clock so it downscales on smaller devices. */
 #clock img {
 	max-width: 100%;
-	display: inline;
 }
 
 /* The bottom of the content block should not be covered by the clock when scrolling to the bottom of the page. */

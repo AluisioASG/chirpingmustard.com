@@ -1,7 +1,5 @@
 /* Have a nice background. */
-body {
-	background: url('../images/background.png') repeat fixed center;
-}
+body { background: url('../images/background.png') repeat fixed center; }
 	
 /* Display the navigation bar on the left with partial translucency. */
 #navbar {
@@ -11,35 +9,14 @@ body {
 	height: 100%;
 	overflow-y: auto;
 }
-/* Shove the content pane to the right, and make sure it doesn't hang off the edge. */
-#content {
-	position: absolute;
-	left: 365px;
-	right: 5px;
-}
+
+/* Display the navbar's link thumbnails next to the items themselves. */
+#navbar img { display: inline; }
 
 /* Adjust whitepace between navbar items. */
 #navbar ul { margin: 10px; }
 #navbar a { padding: 5px; }
 
-/* Display the link thumbnails next to the items themselves. */
-#navbar img {
-	display: inline;
-}
-
-/* Center the newpixometer in the content pane. I think this is unnecessary given other changes, but leaving for easy replacement. 
-#clock {
-	position: absolute; left: calc((100% - 457px) / 2);
-}*/
-
-/* Leave space for the newpixometer in the content pane. Moving to "common.css".
-#content {
-	padding-bottom: 125px;
-	min-height: calc(100% - 125px);
-} */
-
-/* Place the left edge of the "centering block" at the edge of the navbar */
-#clock {
-	left: 360px;
-}
-
+/* Shove the content to the right and extend it through the whole viewport. */
+#content { position: absolute; }
+#content, #clock { left: 365px; right: 20px; }

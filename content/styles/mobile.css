@@ -1,40 +1,38 @@
 /* Display the navigator bar collapsed into the categories and centered below the title. */
 #navbar {
 	background: #000;
-	cursor: default;
 	width: 100%;
+	cursor: default;
 }
-.linkgroup {
+#navbar .linkgroup {
 	display: inline-block;
-	margin: 0 10px 0 10px;
 	position: relative;
+	margin: 0 10px;
 }
-.linkgroup ul {
-	background: #000;
+#navbar .linkgroup ul {
+	display: none;
 	position: absolute;
 	left: -10px;
 	z-index: 1;
+	background: #000;
 }
+
+/* Hide link thumbnails. */
+#navbar img { display: none; }
+
+/* Highlight the active link group and display its contents. */
+#navbar .linkgroup:hover { background: rgba(255, 255, 255, 0.3); }
+#navbar .linkgroup:hover ul { display: block; }
 
 /* Adjust text and line sizes across the navigation bar. */
 #navbar { font-size: 0; text-align: justify; }
-.linkgroup { font-size: initial; line-height: 200%; }
-.linkgroup ul { line-height: normal; text-align: left; }
-
-/* Highlight the active link group and display its contents. */
-.linkgroup:hover { background: rgba(255, 255, 255, 0.3); }
-.linkgroup:hover ul { display: block; }
-.linkgroup ul { display: none; }
+#navbar .linkgroup { font-size: initial; line-height: 200%; }
+#navbar .linkgroup ul { line-height: normal; text-align: left; }
 
 /* Adjust whitespace. */
-.linkgroup ul { margin: 0; padding: 10px; }
-.linkgroup li { margin: 0; padding: 0; }
+#navbar .linkgroup ul { margin: 0; padding: 10px; }
+#navbar .linkgroup li { margin: 0; padding: 0; }
 #navbar a { padding: 5px 0;	}
-
-/* Hide link thumbnails. */
-#navbar img {
-	display: none;
-}
 
 /* Make sure the link groups are justified across the navigation bar. */
 #navbar .justifier {
@@ -42,20 +40,7 @@
 	width: 100%;
 }
 
-/* The clock is always positioned relative to the content pane. Again probably unnecessary, but leaving just in case.
-#clock { position: relative; } */
-
-/* Downscale the newpixometer on smaller screens. 
-@media (max-width: 457px) {
-	#clock { max-width: 100%; }
-	#clock img { max-width: 100%; } 
-} */
-/* Center the newpixometer in the content pane when the latter is wide enough. 
-@media (min-width: 458px) {
-	#clock { left: calc((100% - 457px) / 2); } 
-} */
-
-/* This places the left edge of the "centering block" at the left edge of the screen */
+/* There's no navbar at the left to stop us here. */
 #clock {
 	left: 0;
 }
