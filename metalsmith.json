@@ -4,7 +4,7 @@
 
   "plugins": {
     "metalsmith-ignore": [
-      "styles/normalize.css"
+      "styles/_*.css"
     ],
     "metalsmith-clean-css": {
       "cleanCSS": {
