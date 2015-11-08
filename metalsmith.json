@@ -12,10 +12,10 @@
         "relativeTo": "content/styles/"
       }
     },
-    "metalsmith-templates": {
+    "metalsmith-layouts": {
       "pattern": "*.html",
       "engine": "templayed",
-      "directory": "templates",
+      "directory": "layouts",
       "default": "default.html"
     },
     "metalsmith-html-minifier": {
