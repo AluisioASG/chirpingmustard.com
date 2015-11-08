@@ -1,9 +1,5 @@
-# Build artifacts
+/out/
 /_out/
 
-# Third-party components
 /node_modules/
-
-# Editor files
-*~
-*.swp
+npm-debug.log
