@@ -1,4 +1,4 @@
-@import '_normalize.css';
+@import '../../node_modules/normalize.css/normalize.css';
 
 @font-face {
 	font-family: 'xkcd-beanish';

@@ -1,0 +1,76 @@
+- title: This site
+  items:
+    - label: Home
+      url: index.html
+    - label: Webmail
+      url: https://webmail.gandi.net/
+    - label: User List
+      url: users.html
+    - label: Contact
+      url: contact.html
+- title: The One True Comic
+  items:
+    - label: xkcd page
+      url: https://xkcd.com/1190
+    - label: The Book of Aubron
+      url: http://xkcd.aubronwood.com/
+    - label: Geekwagon Viewer
+      url: http://geekwagon.net/projects/xkcd1190/
+    - label: mscha's <b>Time</b>frames
+      url: http://xkcd.mscha.org/
+    - label: Moonbase Viewer
+      url: http://moonbase.chirpingmustard.com/aftertime/viewer?story=time
+    - label: "Explain XKCD: 1190"
+      url: http://www.explainxkcd.com/wiki/index.php?title=1190:_Time
+    - label: XKCD Time Wiki
+      url: http://wiki.chirpingmustard.com/
+    - label: Edfel's Time Map
+      url: http://edfel.atwebpages.com/Time-Map.php
+- title: Afterwhen Relays
+  items:
+      - label: Time After Time
+        url: http://xkcd.mscha.org/timeaftertime.html
+      - label: Moonbase ONGsystem
+        url: http://moonbase.chirpingmustard.com/aftertime/
+- title: Needle-pulled Things
+  items:
+    - label: The One True Thread
+      url: http://forums.xkcd.com/viewtopic.php?f=7&t=101043
+    - label: <span class="mirrored">OTT Mirror</span>
+      url: http://mirror.chirpingmustard.com/
+    - label: Redundamirror
+      url: https://1.mirror.chirpingmustard.com/
+- title: Maps
+  items:
+    - label: Time—The Database
+      url: http://db.chirpingmustard.com/
+    - label: Not AnOTTer Map
+      url: https://ottermap.chirpingmustard.com/
+    - label: Eclesiastical Calendar
+      url: http://calendar.chirpingmustard.com/
+- title: Hotdogs
+  items:
+    - label: Sandcastle Builder
+      url: https://castle.chirpingmustard.com/
+    - label: Q04B
+      url: http://mrob.com/time/Q04B/
+    - label: xkcd Time Catapult
+      url: https://thred.github.io/xkcd-time-catapult/
+    - label: Sandcastle Architect
+      url: http://taixzo.com/sandcastle_architect.html
+    - label: AUTOMOME
+      url: http://automome.chirpingmustard.com/
+    - label: AUTOMEME27
+      url: http://mrob.com/time/automome/
+    - label: OTToMeme
+      url: http://xkcd.modularthought.com/ottomeme/
+- title: Redundant
+  items:
+    - label: azule
+      url: http://xkcd.modularthought.com/
+    - label: AluisioASG
+      url: https://aasg.chirpingmustard.com/
+    - label: balthasar_s
+      url: http://moonbase.chirpingmustard.com/
+    - label: mrob27
+      url: http://mrob.com/time/

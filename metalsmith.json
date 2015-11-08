@@ -3,8 +3,11 @@
   "destination": "_out",
 
   "plugins": {
+    "metalsmith-metadata": {
+      "navbar_links": "_data-navbar-links.yaml"
+    },
     "metalsmith-ignore": [
-      "styles/_*.css"
+      "_data-*.yaml"
     ],
     "metalsmith-clean-css": {
       "cleanCSS": {
@@ -12,10 +15,10 @@
         "relativeTo": "content/styles/"
       }
     },
-    "metalsmith-templates": {
+    "metalsmith-layouts": {
       "pattern": "*.html",
-      "engine": "templayed",
-      "directory": "templates",
+      "engine": "hogan",
+      "directory": "layouts",
       "default": "default.html"
     },
     "metalsmith-html-minifier": {

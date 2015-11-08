@@ -1,0 +1,31 @@
+<!DOCTYPE html>
+<html lang="en">
+	<meta charset="utf-8">
+	<title>{{ title }}</title>
+	<meta name="viewport" content="width=device-width, initial-scale=1.0">
+	<link rel="stylesheet" media="screen" href="styles/common.css">
+	<link rel="stylesheet" media="screen and (max-width: 719px)" href="styles/mobile.css">
+	<link rel="stylesheet" media="screen and (min-width: 720px)" href="styles/desktop.css">
+
+	<nav id="navbar">
+		<ul>
+			{{#navbar_links}}
+			<li class="linkgroup">{{{ title }}}
+				<ul>
+					{{#items}}
+					<li><a href="{{url}}"><img src="{{#thumbnail}}{{.}}{{/thumbnail}}{{^thumbnail}}images/thumb-default.png{{/thumbnail}}" alt="">{{{ label }}}</a>
+					{{/items}}
+				</ul>
+			</li>
+			{{/navbar_links}}
+			<li class="justifier"></li>
+		</ul>
+	</nav>
+	<main id="content">
+		<h1>{{{ heading }}}</h1>
+		{{{ contents }}}
+	</main>
+	<footer id="clock">
+		<img src="http://clock.chronal.net/clock5.php" alt="Newpix-o-meter">
+	</footer>
+</html>

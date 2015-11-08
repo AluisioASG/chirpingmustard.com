@@ -1,20 +1,24 @@
 {
   "name": "chirpingmustard.com",
-  "version": "0.13.0",
+  "version": "0.14.0",
   "description": "A portal to all things RELATED to the OTC and the OTT",
   "contributors": [
     "Mike Crawford <m@chirpingmustard.com>",
     "Aluísio Augusto Silva Gonçalves <aasg@chirpingmustard.com>"
   ],
   "scripts": {
-    "build": "metalsmith"
+    "build": "metalsmith",
+    "deploy": "gh-pages -d _out -t"
   },
   "dependencies": {
-    "metalsmith": "~0.10.0",
-    "metalsmith-clean-css": "~0.0.3",
-    "metalsmith-html-minifier": "^1.0.0",
+    "metalsmith": "2",
+    "metalsmith-clean-css": "2",
+    "metalsmith-html-minifier": "1",
     "metalsmith-ignore": "~0.1.2",
-    "metalsmith-templates": "~0.5.2",
-    "templayed": "~0.2.3"
+    "metalsmith-metadata": "~0.0.2",
+    "metalsmith-layouts": "1",
+    "hogan.js": "3",
+    "normalize.css": "3",
+    "gh-pages": "0.5"
   }
 }
