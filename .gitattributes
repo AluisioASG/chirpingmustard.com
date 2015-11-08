@@ -1,0 +1,4 @@
+* text=auto
+
+# Use a custom hunk header when available.
+*.html diff=html
