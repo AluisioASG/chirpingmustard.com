@@ -3,6 +3,12 @@
   "destination": "_out",
 
   "plugins": {
+    "metalsmith-metadata": {
+      "navbar_links": "_data-navbar-links.yaml"
+    },
+    "metalsmith-ignore": [
+      "_data-*.yaml"
+    ],
     "metalsmith-clean-css": {
       "cleanCSS": {
         "processImport": true,

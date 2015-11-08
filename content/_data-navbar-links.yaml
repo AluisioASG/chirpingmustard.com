@@ -1,0 +1,58 @@
+- title: This site
+  items:
+    - label: Home
+      url: index.html
+    - label: Webmail
+      url: https://webmail.gandi.net/
+    - label: User List
+      url: users.html
+    - label: Contact
+      url: contact.html
+- title: The Comic
+  items:
+    - label: The One True Comic
+      url: http://xkcd.com/1190
+    - label: mscha's <b>Time</b>frames
+      url: http://xkcd.mscha.org/
+    - label: The Book of Aubron
+      url: http://xkcd.aubronwood.com/
+    - label: Geekwagon Viewer
+      url: http://geekwagon.net/projects/xkcd1190/
+    - label: "Explain XKCD: 1190"
+      url: http://www.explainxkcd.com/wiki/index.php?title=1190:_Time
+    - label: XKCD Time Wiki
+      url: http://wiki.chirpingmustard.com/
+    - label: Time After Time
+      url: http://xkcd.mscha.org/timeaftertime.html
+    - label: Balthartist's BFTF
+      url: http://1190.bicyclesonthemoon.dnsd.info/ongoing.htm
+- title: Needle-pulled Things
+  items:
+    - label: The One True Thread
+      url: http://forums.xkcd.com/viewtopic.php?f=7&t=101043
+    - label: <span class="mirrored">OTT Mirror</span>
+      url: http://mirror.chirpingmustard.com/
+    - label: The Raftcastle
+      url: http://contingency.chirpingmustard.com/
+- title: OTT Gone Meta
+  items:
+    - label: Time - The Database
+      url: http://db.chirpingmustard.com/
+    - label: Not AnOTTer Map
+      url: http://ottermap.chirpingmustard.com/
+- title: Games &amp; Fun
+  items:
+    - label: Eclesiastical Calendar
+      url: http://calendar.chirpingmustard.com/
+    - label: Edfel's Time Map
+      url: http://edfel.atwebpages.com/Time-Map.php
+    - label: Sandcastle Builder
+      url: http://castle.chirpingmustard.com/
+    - label: Q04B
+      url: http://mrob.com/time/Q04B/
+    - label: Pfffth
+      url: http://kayzgames.itch.io/pfffth?secret=DuJYQ4KCOiZojPbSLXF7gTxoF9c%3d
+    - label: AUTOMOME
+      url: http://automome.chirpingmustard.com/
+    - label: OTToMeme
+      url: http://xkcd.modularthought.com/ottomeme/
