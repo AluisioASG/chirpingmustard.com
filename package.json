@@ -7,7 +7,8 @@
     "Aluísio Augusto Silva Gonçalves <aasg@chirpingmustard.com>"
   ],
   "scripts": {
-    "build": "metalsmith"
+    "build": "metalsmith",
+    "deploy": "gh-pages -d _out -t"
   },
   "dependencies": {
     "metalsmith": "2",
@@ -17,6 +18,7 @@
     "metalsmith-metadata": "~0.0.2",
     "metalsmith-layouts": "1",
     "hogan.js": "3",
-    "normalize.css": "3"
+    "normalize.css": "3",
+    "gh-pages": "0.5"
   }
 }
