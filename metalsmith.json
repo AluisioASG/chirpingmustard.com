@@ -3,9 +3,6 @@
   "destination": "_out",
 
   "plugins": {
-    "metalsmith-ignore": [
-      "styles/normalize.css"
-    ],
     "metalsmith-clean-css": {
       "cleanCSS": {
         "processImport": true,
