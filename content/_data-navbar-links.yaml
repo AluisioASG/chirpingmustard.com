@@ -20,6 +20,8 @@
       url: http://xkcd.mscha.org/
     - label: Moonbase Viewer
       url: http://moonbase.chirpingmustard.com/aftertime/viewer?story=time
+    - label: Live Replay
+      url: http://mrob.com/time/replay/
     - label: "Explain XKCD: 1190"
       url: http://www.explainxkcd.com/wiki/index.php?title=1190:_Time
     - label: XKCD Time Wiki
