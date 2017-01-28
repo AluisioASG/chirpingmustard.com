@@ -18,7 +18,7 @@
     },
     "metalsmith-layouts": {
       "pattern": "*.html",
-      "engine": "hogan",
+      "engine": "handlebars",
       "directory": "layouts",
       "default": "default.html"
     },

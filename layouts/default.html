@@ -1,7 +1,7 @@
 <!DOCTYPE html>
 <html lang="en">
 	<meta charset="utf-8">
-	<title>{{ title }}</title>
+	<title>{{title}}</title>
 	<meta name="viewport" content="width=device-width, initial-scale=1.0">
 	<link rel="stylesheet" media="screen" href="styles/common.css">
 	<link rel="stylesheet" media="screen and (max-width: 719px)" href="styles/mobile.css">
@@ -9,21 +9,21 @@
 
 	<nav id="navbar">
 		<ul>
-			{{#navbar_links}}
-			<li class="linkgroup">{{{ title }}}
+			{{#each navbar_links}}
+			<li class="linkgroup">{{{title}}}
 				<ul>
-					{{#items}}
-					<li><a href="{{url}}"><img src="{{#thumbnail}}{{.}}{{/thumbnail}}{{^thumbnail}}images/thumb-default.png{{/thumbnail}}" alt="">{{{ label }}}</a>
-					{{/items}}
+					{{#each items}}
+					<li><a href="{{url}}"><img src="{{#if thumbnail}}{{.}}{{else}}images/thumb-default.png{{/if}}" alt="">{{{label}}}</a>
+					{{/each}}
 				</ul>
 			</li>
-			{{/navbar_links}}
+			{{/each}}
 			<li class="justifier"></li>
 		</ul>
 	</nav>
 	<main id="content">
-		<h1>{{{ heading }}}</h1>
-		{{{ contents }}}
+		<h1>{{{heading}}}</h1>
+		{{{contents}}}
 	</main>
 	<footer id="clock">
 		<img src="http://clock.chronal.net/clock5.php" alt="Newpix-o-meter">
