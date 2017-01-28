@@ -11,14 +11,18 @@
     "deploy": "gh-pages -d output -t"
   },
   "dependencies": {
+    "autoprefixer": "^6.7.0",
+    "cssnano": "^3.10.0",
     "gh-pages": "^0.12.0",
     "handlebars": "^4.0.6",
     "metalsmith": "2",
-    "metalsmith-clean-css": "^5.0.1",
     "metalsmith-html-minifier": "^2.1.0",
     "metalsmith-ignore": "~0.1.2",
     "metalsmith-layouts": "1",
     "metalsmith-metadata": "~0.0.2",
-    "normalize.css": "^5.0.0"
+    "metalsmith-postcss": "^4.0.0",
+    "normalize.css": "^5.0.0",
+    "postcss-import": "^9.1.0",
+    "postcss-url": "^5.1.2"
   }
 }
