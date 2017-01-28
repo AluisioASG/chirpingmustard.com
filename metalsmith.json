@@ -1,6 +1,6 @@
 {
   "source": "content",
-  "destination": "_out",
+  "destination": "output",
 
   "plugins": {
     "metalsmith-metadata": {

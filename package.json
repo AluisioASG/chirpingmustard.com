@@ -8,7 +8,7 @@
   ],
   "scripts": {
     "build": "metalsmith",
-    "deploy": "gh-pages -d _out -t"
+    "deploy": "gh-pages -d output -t"
   },
   "dependencies": {
     "metalsmith": "2",
