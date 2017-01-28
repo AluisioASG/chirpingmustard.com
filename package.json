@@ -7,10 +7,10 @@
     "Aluísio Augusto Silva Gonçalves <aasg@chirpingmustard.com>"
   ],
   "scripts": {
-    "build": "metalsmith",
+    "prepublish": "metalsmith",
     "deploy": "gh-pages -d output -t"
   },
-  "dependencies": {
+  "devDependencies": {
     "autoprefixer": "^6.7.0",
     "cssnano": "^3.10.0",
     "gh-pages": "^0.12.0",
