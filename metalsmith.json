@@ -10,6 +10,7 @@
       "_data-*.yaml"
     ],
     "metalsmith-clean-css": {
+      "files": "content/styles/*.css",
       "cleanCSS": {
         "processImport": true,
         "relativeTo": "content/styles/"
