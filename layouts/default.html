@@ -13,7 +13,7 @@
 			<li class="linkgroup">{{{title}}}
 				<ul>
 					{{#each items}}
-					<li><a href="{{url}}"><img src="{{#if thumbnail}}{{.}}{{else}}images/thumb-default.png{{/if}}" alt="">{{{label}}}</a>
+					<li><a href="{{url}}"><img src="{{#if thumbnail}}{{thumbnail}}{{else}}images/thumbnails/_default.png{{/if}}" alt="">{{{label}}}</a>
 					{{/each}}
 				</ul>
 			</li>
