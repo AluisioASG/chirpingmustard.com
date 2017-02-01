@@ -18,6 +18,7 @@
     "metalsmith": "2",
     "metalsmith-html-minifier": "^2.1.0",
     "metalsmith-ignore": "~0.1.2",
+    "metalsmith-in-place": "1",
     "metalsmith-layouts": "1",
     "metalsmith-metadata": "~0.0.2",
     "metalsmith-postcss": "^4.0.0",

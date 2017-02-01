@@ -9,6 +9,11 @@
     "metalsmith-ignore": [
       "_data-*.yaml"
     ],
+    "metalsmith-in-place": {
+      "pattern": "*.html",
+      "engine": "handlebars",
+      "partials": "layouts/partials"
+    },
     "metalsmith-layouts": {
       "pattern": "*.html",
       "engine": "handlebars",
