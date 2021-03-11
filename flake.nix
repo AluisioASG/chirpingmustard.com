@@ -9,11 +9,11 @@
   };
   outputs = { self, flake-utils, nixpkgs }: flake-utils.lib.simpleFlake rec {
     inherit self nixpkgs;
-    name = "chirpingmustard-website";
+    name = "chirpingmustard.com";
     overlay = final: prev: {
       ${name} = {
         defaultPackage = (final.mkYarnPackage rec {
-          pname = "chirpingmustard.com-node";
+          pname = "chirpingmustard.com";
           version = (builtins.fromJSON (builtins.readFile "${src}/package.json")).version;
           src = self;
 
